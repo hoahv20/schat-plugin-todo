@@ -2,7 +2,7 @@
 
 const manifest = JSON.parse(`
 {
-    "id": "com.mattermost.plugin-todo",
+    "id": "com.schat.plugin-todo-next",
     "name": "Todo",
     "description": "This plugin makes it easy to keep track of Todo issues and get daily reminders.",
     "homepage_url": "https://github.com/mattermost/mattermost-plugin-todo",

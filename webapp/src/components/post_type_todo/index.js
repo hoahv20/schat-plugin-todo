@@ -13,7 +13,7 @@ function mapStateToProps(state, ownProps) {
     return {
         ...ownProps,
         siteURL: getSiteURL(state),
-        pendingAnswer: state['plugins-com.mattermost.plugin-todo'].inIssues.some((issue) => issue.id === ownProps.post.props.issueId),
+        pendingAnswer: state['plugins-com.schat.plugin-todo-next'].inIssues.some((issue) => issue.id === ownProps.post.props.issueId),
     };
 }
 

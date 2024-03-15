@@ -13,7 +13,7 @@ import {clearKVStoreForPlugin} from './kv';
 import {preferencesForUser} from './user';
 
 const pluginDistPath = path.join(__dirname, '../../../dist');
-const pluginId = 'com.mattermost.plugin-todo';
+const pluginId = 'com.schat.plugin-todo-next';
 const botUsername = 'todo'
 
 // # One time tasks

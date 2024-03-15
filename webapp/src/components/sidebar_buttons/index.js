@@ -10,10 +10,10 @@ import SidebarButtons from './sidebar_buttons.jsx';
 
 function mapStateToProps(state) {
     return {
-        issues: state['plugins-com.mattermost.plugin-todo'].issues,
-        inIssues: state['plugins-com.mattermost.plugin-todo'].inIssues,
-        outIssues: state['plugins-com.mattermost.plugin-todo'].outIssues,
-        showRHSPlugin: state['plugins-com.mattermost.plugin-todo'].rhsPluginAction,
+        issues: state['plugins-com.schat.plugin-todo-next'].issues,
+        inIssues: state['plugins-com.schat.plugin-todo-next'].inIssues,
+        outIssues: state['plugins-com.schat.plugin-todo-next'].outIssues,
+        showRHSPlugin: state['plugins-com.schat.plugin-todo-next'].rhsPluginAction,
     };
 }
 

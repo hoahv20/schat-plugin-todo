@@ -16,7 +16,7 @@ function mapStateToProps(state) {
         inTodos: getInIssues(state),
         outTodos: getOutIssues(state),
         siteURL: getSiteURL(state),
-        rhsState: state['plugins-com.mattermost.plugin-todo'].rhsState,
+        rhsState: state['plugins-com.schat.plugin-todo-next'].rhsState,
     };
 }
 
