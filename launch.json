@@ -1,0 +1,9 @@
+{
+    "name": "Attach remote",
+    "type": "go",
+    "request": "attach",
+    "mode": "remote",
+    "port": 2346,
+    "host": "127.0.0.1",
+    "apiVersion": 2
+}

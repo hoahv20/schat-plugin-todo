@@ -462,6 +462,7 @@ func (p *Plugin) handleComplete(w http.ResponseWriter, r *http.Request) {
 	userID := r.Header.Get("Mattermost-User-ID")
 
 	completeRequest, err := GetCompleteIssuePayloadFromJSON(r.Body)
+
 	if err != nil {
 		p.API.LogError("Unable to get complete issue request payload from JSON err=" + err.Error())
 		p.handleErrorWithCode(w, http.StatusBadRequest, "Unable to get complete issue request from JSON.", err)
